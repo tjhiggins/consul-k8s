@@ -28,17 +28,19 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mitchellh/go-testing-interface v1.14.0 // indirect
 	github.com/mitchellh/mapstructure v1.4.1
+	github.com/stretchr/objx v0.2.0 // indirect
 	github.com/stretchr/testify v1.7.0
-	go.uber.org/zap v1.17.0
-	golang.org/x/sys v0.0.0-20210611083646-a4fc73990273 // indirect
-	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
-	golang.org/x/tools v0.1.2 // indirect
+	github.com/vmware/govmomi v0.18.0
+	go.uber.org/zap v1.19.0
+	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac
 	gomodules.xyz/jsonpatch/v2 v2.2.0
-	k8s.io/api v0.21.1
-	k8s.io/apimachinery v0.21.1
-	k8s.io/client-go v0.21.1
-	k8s.io/klog/v2 v2.8.0
-	sigs.k8s.io/controller-runtime v0.9.0
+	k8s.io/api v0.22.2
+	k8s.io/apimachinery v0.22.2
+	k8s.io/client-go v0.22.2
+	k8s.io/klog/v2 v2.9.0
+	sigs.k8s.io/controller-runtime v0.10.2
 )
+
+replace github.com/hashicorp/consul/api => ../../consul-enterprise/api
 
 go 1.16
